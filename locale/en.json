@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Figma spec reader",
+    "description": "Read a Figma frame's real style data over the REST API: every node's box, fills, per-side strokes, gradients, effects, radii, arc data, grid gaps, and typography. Renders the result as a spec summary, a full CSV table, a type scale, a colour palette, or a diff between two nodes. Requires a Figma personal access token saved as FIGMA_TOKEN in the harness credential store; reads are cached so a repeated frame costs no API quota. Does not generate code from designs and does not write to Figma."
+  }
+}

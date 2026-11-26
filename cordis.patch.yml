@@ -1,0 +1,8 @@
+- insert:
+    - id: figma-spec
+      name: dsh-figma-spec
+      config:
+        # cacheDir is intentionally omitted: the plugin resolves it at runtime
+        # from DSH_HOME (or USERPROFILE/HOME), which a `!!js` expression here
+        # cannot see — that layer is evaluated before the harness exports it.
+        maxRecords: 600
